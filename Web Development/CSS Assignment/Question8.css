@@ -1,0 +1,19 @@
+p{
+	font-size:25px;
+}
+p.p1{
+	background:#00ffbf;
+	border:10px solid black;
+}
+p.p2{
+	background:#00ffbf;
+	border:5px solid black;
+}
+p.p3{
+	background:#00ffbf;
+	border:3px solid black;
+}
+h1{
+	background-color:#00ffbf;
+	padding:10px;
+}

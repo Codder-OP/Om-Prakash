@@ -1,0 +1,24 @@
+Êþº¾   4 R  com/vunnam/Annotations/Student  java/lang/Object name Ljava/lang/String; age I CGPA D aDetails "Lcom/vunnam/Annotations/Admission; <init> ()V Code
+   
+  LineNumberTable LocalVariableTable this  Lcom/vunnam/Annotations/Student; 9(Ljava/lang/String;IDLcom/vunnam/Annotations/Admission;)V	    	    	   	 
+	     cGPA getName ()Ljava/lang/String; setName (Ljava/lang/String;)V getAge ()I setAge (I)V getCGPA ()D setCGPA (D)V getaDetails $()Lcom/vunnam/Annotations/Admission; setaDetails %(Lcom/vunnam/Annotations/Admission;)V RuntimeVisibleAnnotations Ljavax/inject/Inject; toString 4 java/lang/StringBuilder 6 Student [name=
+ 3 8 
+ #
+ 3 : ; < append -(Ljava/lang/String;)Ljava/lang/StringBuilder; > , age=
+ 3 @ ; A (I)Ljava/lang/StringBuilder; C , CGPA=
+ 3 E ; F (D)Ljava/lang/StringBuilder; H , 
+aDetails=
+ 3 J ; K -(Ljava/lang/Object;)Ljava/lang/StringBuilder; M ]
+ 3 O 2 ! 
+SourceFile Student.java !                 	 
+          
+      3     *· ±       
+    
+                
+      €     *· *+µ *µ *)µ *µ ±              	           4                         
+           !     /     *´ °                         " #     >     *+µ ±       
+                          $ %     /     *´ ¬                         & '     >     *µ ±       
+                          ( )     /     *´ ¯           !              * +     >     *'µ ±       
+    $  %                 
+   , -     /     *´ °           '              . /  0     1      >     *+µ ±       
+    +  ,                    2 !     g     =» 3Y5· 7*´ ¶ 9=¶ 9*´ ¶ ?B¶ 9*´ ¶ DG¶ 9*´ ¶ IL¶ 9¶ N°           /        =      P    Q

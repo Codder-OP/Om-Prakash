@@ -1,0 +1,15 @@
+Êþº¾   4 5   com/vunnam/Annotations/Admission  java/lang/Object regNo J branch Ljava/lang/String; <init> ()V Code
+  
+ 	 
+ LineNumberTable LocalVariableTable this "Lcom/vunnam/Annotations/Admission; (JLjava/lang/String;)V	    	     getRegNo ()J setRegNo (J)V 	getBranch ()Ljava/lang/String; 	setBranch (Ljava/lang/String;)V toString ! java/lang/StringBuilder # Admission [regNo=
+   % 	 
+   ' ( ) append (J)Ljava/lang/StringBuilder; + 	, branch=
+   - ( . -(Ljava/lang/String;)Ljava/lang/StringBuilder; 0 ]
+   2   
+SourceFile Admission.java !                  	 
+     3     *· ±       
+                    	      Y     *· *µ *-µ ±           
+   	   
+                                 /     *´ ­                               >     *µ ±       
+                                /     *´ °                               >     *+µ ±       
+                                O     %»  Y"· $*´ ¶ &*¶ ,*´ ¶ ,/¶ ,¶ 1°                   %      3    4

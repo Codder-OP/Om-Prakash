@@ -1,0 +1,27 @@
+Êþº¾   4 D  com/vunnam/Annotations/Mentor  java/lang/Object id I name Ljava/lang/String; studentDetails  Lcom/vunnam/Annotations/Student; <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/vunnam/Annotations/Mentor; 6(ILjava/lang/String;Lcom/vunnam/Annotations/Student;)V	    	    	   	 
+ getId ()I setId (I)V getName ()Ljava/lang/String; setName (Ljava/lang/String;)V getStudentDetails "()Lcom/vunnam/Annotations/Student; setStudentDetails #(Lcom/vunnam/Annotations/Student;)V RuntimeVisibleAnnotations 7Lorg/springframework/beans/factory/annotation/Required; toString + java/lang/StringBuilder - Mentor [id=
+ * /  "
+ * 1 2 3 append (I)Ljava/lang/StringBuilder; 5 , name=
+ * 7 2 8 -(Ljava/lang/String;)Ljava/lang/StringBuilder; : , 
+studentDetails=
+ * < 2 = -(Ljava/lang/Object;)Ljava/lang/StringBuilder; ? ]
+ * A )   
+SourceFile Mentor.java !                 	 
+   	     
+   3     *· ±       
+    	                   
+   l     *· *µ *,µ *-µ ±           
+   	         *                        	 
+      
+   /     *´ ¬                            
+   >     *µ ±       
+                              
+   /     *´ °                         ! "  
+   >     *+µ ±       
+                          # $  
+   /     *´ °                         % &  '     (   
+   >     *+µ ±       
+    $  %                	 
+   )    
+   [     1» *Y,· .*´ ¶ 04¶ 6*´ ¶ 69¶ 6*´ ¶ ;>¶ 6¶ @°           (        1      B    C

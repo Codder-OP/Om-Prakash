@@ -1,0 +1,25 @@
+Êþº¾   4 E  com/vunnam/Annotations/Details  java/lang/Object aDetails "Lcom/vunnam/Annotations/Admission; studentDetails  Lcom/vunnam/Annotations/Student; 
+mentorDetails Lcom/vunnam/Annotations/Mentor; <init> ()V Code
+     LineNumberTable LocalVariableTable this  Lcom/vunnam/Annotations/Details; d(Lcom/vunnam/Annotations/Admission;Lcom/vunnam/Annotations/Student;Lcom/vunnam/Annotations/Mentor;)V	    	    	   	 
+ getaDetails $()Lcom/vunnam/Annotations/Admission; setaDetails %(Lcom/vunnam/Annotations/Admission;)V RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; getStudentDetails "()Lcom/vunnam/Annotations/Student; setStudentDetails #(Lcom/vunnam/Annotations/Student;)V getMentorDetails !()Lcom/vunnam/Annotations/Mentor; setMentorDetails "(Lcom/vunnam/Annotations/Mentor;)V Ljavax/annotation/Resource; toString ()Ljava/lang/String; - java/lang/StringBuilder / Details [aDetails=
+ , 1  2 (Ljava/lang/String;)V
+ , 4 5 6 append -(Ljava/lang/Object;)Ljava/lang/StringBuilder; 8 , studentDetails=
+ , : 5 ; -(Ljava/lang/String;)Ljava/lang/StringBuilder; = , mentorDetails= ? ]
+ , A * + 
+SourceFile Details.java 6Lorg/springframework/context/annotation/Configuration; !                 	 
+   	     
+   3     *· ±       
+                       
+   l     *· *+µ *,µ *-µ ±              	         *                        	 
+      
+   /     *´ °                                     
+   >     *+µ ±       
+                           ! "  
+   /     *´ °           "              # $           
+   >     *+µ ±       
+    &  '                    % &  
+   /     *´ °           )              ' (       )   
+   >     *+µ ±       
+    -  .                	 
+   * +  
+   c     1» ,Y.· 0*´ ¶ 37¶ 9*´ ¶ 3<¶ 9*´ ¶ 3>¶ 9¶ @°           1 ! 2 - 1        1      B    C      D  

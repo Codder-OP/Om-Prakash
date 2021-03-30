@@ -1,0 +1,1 @@
+<a href="<%=request.getContextPath() %>/home">http://Question1/print/</a>

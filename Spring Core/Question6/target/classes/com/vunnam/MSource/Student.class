@@ -1,0 +1,27 @@
+Êþº¾   4 O  com/vunnam/MSource/Student  java/lang/Object name Ljava/lang/String; regNo J rating D subject Lcom/vunnam/MSource/Subject; <init> ()V Code
+   
+  LineNumberTable LocalVariableTable this Lcom/vunnam/MSource/Student; 3(Ljava/lang/String;JDLcom/vunnam/MSource/Subject;)V	    	    	   	 
+	     getName ()Ljava/lang/String; setName (Ljava/lang/String;)V getRegNo ()J setRegNo (J)V 	getRating ()D 	setRating (D)V 
+getSubject ()Lcom/vunnam/MSource/Subject; 
+setSubject (Lcom/vunnam/MSource/Subject;)V toString 1 java/lang/StringBuilder 3 Student [name=
+ 0 5 
+ "
+ 0 7 8 9 append -(Ljava/lang/String;)Ljava/lang/StringBuilder; ; , regNo=
+ 0 = 8 > (J)Ljava/lang/StringBuilder; @ 	, rating=
+ 0 B 8 C (D)Ljava/lang/StringBuilder; E , 
+subject=
+ 0 G 8 H -(Ljava/lang/Object;)Ljava/lang/StringBuilder; J ]
+ 0 L /   
+SourceFile Student.java !                 	 
+          
+      3     *· ±       
+      
+              
+           *· *+µ * µ *µ *µ ±             
+ 	           4                        	 
+                /     *´ °                         ! "     >     *+µ ±       
+                          # $     /     *´ ­                         % &     >     *µ ±       
+                          ' (     /     *´ ¯                         ) *     >     *'µ ±       
+    "  #                	 
+   + ,     /     *´ °           %              - .     >     *+µ ±       
+    (  )                    /       g     =» 0Y2· 4*´ ¶ 6:¶ 6*´ ¶ <?¶ 6*´ ¶ AD¶ 6*´ ¶ FI¶ 6¶ K°           ,        =      M    N

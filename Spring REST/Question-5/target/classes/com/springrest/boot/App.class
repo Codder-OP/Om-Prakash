@@ -1,0 +1,8 @@
+Êþº¾   4   com/springrest/boot/App  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/springrest/boot/App; main ([Ljava/lang/String;)V
+    *org/springframework/boot/SpringApplication   run b(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext; args [Ljava/lang/String; MethodParameters 
+SourceFile App.java RuntimeVisibleAnnotations >Lorg/springframework/boot/autoconfigure/SpringBootApplication; !               /     *· ±    
+                 
+   	       6     *¸ W±    
+   
+                                    

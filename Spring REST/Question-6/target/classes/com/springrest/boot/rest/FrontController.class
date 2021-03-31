@@ -1,0 +1,17 @@
+Êþº¾   4 l  (com/springrest/boot/rest/FrontController  java/lang/Object template -Lorg/springframework/web/client/RestTemplate; RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; service &Lcom/springrest/boot/rest/AllServices; <init> ()V Code
+     LineNumberTable LocalVariableTable this *Lcom/springrest/boot/rest/FrontController; add 6(Lcom/springrest/boot/rest/TwoNums;)Ljava/lang/String; 8Lorg/springframework/web/bind/annotation/RequestMapping; value /consume/add method 7Lorg/springframework/web/bind/annotation/RequestMethod; POST "RuntimeVisibleParameterAnnotations 5Lorg/springframework/web/bind/annotation/RequestBody;  $org/springframework/http/HttpHeaders
+   " "org/springframework/http/MediaType	 ! $ % & APPLICATION_JSON $Lorg/springframework/http/MediaType;
+ ( * ) java/util/Arrays + , asList %([Ljava/lang/Object;)Ljava/util/List;
+  . / 0 	setAccept (Ljava/util/List;)V 2 #org/springframework/http/HttpEntity
+ 1 4  5 =(Ljava/lang/Object;Lorg/springframework/util/MultiValueMap;)V	  7   9 http://localhost:8080/add	 ; = < #org/springframework/http/HttpMethod  > %Lorg/springframework/http/HttpMethod; @ java/lang/String
+ B D C +org/springframework/web/client/RestTemplate E F exchange «(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity;Ljava/lang/Class;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+ H J I 'org/springframework/http/ResponseEntity K L getBody ()Ljava/lang/Object; tn "Lcom/springrest/boot/rest/TwoNums; headers &Lorg/springframework/http/HttpHeaders; entity %Lorg/springframework/http/HttpEntity; LocalVariableTypeTable ILorg/springframework/http/HttpEntity<Lcom/springrest/boot/rest/TwoNums;>; MethodParameters check %(Lcom/springrest/boot/rest/TwoNums;)J /add	  Z 	 
+
+ \ ^ ]  com/springrest/boot/rest/TwoNums _ ` getN1 ()J
+ \ b c ` getN2
+ e g f $com/springrest/boot/rest/AllServices  h (JJ)J 
+SourceFile FrontController.java 8Lorg/springframework/web/bind/annotation/RestController; !                     	 
+               
+   /     *· ±                                   [ s  [ e           
+   £     =» Y·  M,½ !Y² #S¸ '¶ -» 1Y+,· 3N*´ 68² :-?½ ¶ A¶ GÀ ?°                " # #    *    =       = M N   5 O P  #  Q R  S     #  Q T  U    M    V W         [ s X [ e           
+   D     *´ Y+¶ [+¶ a¶ d­           (                M N  U    M    i    j      k  

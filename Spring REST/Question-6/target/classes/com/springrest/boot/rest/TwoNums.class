@@ -1,0 +1,19 @@
+Êþº¾   4    com/springrest/boot/rest/TwoNums  java/lang/Object n1 J n2 <init> ()V Code
+    	 LineNumberTable LocalVariableTable this "Lcom/springrest/boot/rest/TwoNums; (JJ)V	    	     MethodParameters getN1 ()J setN1 (J)V getN2 setN2 
+SourceFile TwoNums.java !                   	  
+   3     *· ±    
+   
+      	                 
+   Y     *· *µ *!µ ±    
+          	 
+                               	           
+   /     *´ ­    
+                        
+   >     *µ ±    
+   
+                                    
+   /     *´ ­    
+                        
+   >     *µ ±    
+   
+                                     

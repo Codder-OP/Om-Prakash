@@ -1,0 +1,20 @@
+Êþº¾   1   com/springrest/models/UserModel  java/lang/Object username Ljava/lang/String; password <init> ()V Code
+    	 LineNumberTable LocalVariableTable this !Lcom/springrest/models/UserModel; '(Ljava/lang/String;Ljava/lang/String;)V	    	     getUsername ()Ljava/lang/String; setUsername (Ljava/lang/String;)V getPassword setPassword 
+SourceFile UserModel.java !                   	  
+   3     *· ±    
+   
+                       
+   Y     *· *+µ *,µ ±    
+       
+   	   
+                              
+   /     *´ °    
+                        
+   >     *+µ ±    
+   
+                             
+   /     *´ °    
+                        
+   >     *+µ ±    
+   
+                          

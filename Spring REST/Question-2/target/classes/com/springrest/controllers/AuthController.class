@@ -1,0 +1,22 @@
+Êþº¾   1 ?  )com/springrest/controllers/AuthController  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this +Lcom/springrest/controllers/AuthController; userAuth 5(Lcom/springrest/models/UserModel;)Ljava/lang/String; RuntimeVisibleAnnotations 8Lorg/springframework/web/bind/annotation/RequestMapping; value 
+/auth.html "RuntimeVisibleParameterAnnotations 8Lorg/springframework/web/bind/annotation/ModelAttribute; 
+userModel1
+    com/springrest/models/UserModel   getUsername ()Ljava/lang/String;
+     getPassword
+  ! " # 	fakeCheck '(Ljava/lang/String;Ljava/lang/String;)Z % 
+valid user ' Invalid user !Lcom/springrest/models/UserModel; isValid Z , Simran
+ . 0 / java/lang/String 1 2 
+contentEquals (Ljava/lang/CharSequence;)Z 4 123
+ . 6 7 8 equals (Ljava/lang/Object;)Z username Ljava/lang/String; pass 
+SourceFile AuthController.java 8Lorg/springframework/web/bind/annotation/RestController; !               /     *· ±    
+       
+          
+              [ s         s     a     *+¶ +¶ ¶  =™ $°&°    
+        
+                
+       (  
+ 
+ ) *   " #     \     ++¶ -™ ,3¶ 5™ ¬¬    
+                      
+      9 :     ; :   <    =      >  

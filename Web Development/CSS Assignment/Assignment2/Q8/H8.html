@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+         body, html{
+height: 100%;
+margin:0;
+font-size: 16px;
+font-family: "Lato", sans-serif;
+font-weight:400;
+height: auto;
+line-height:1.8em;
+color:#666;
+}
+fieldset{
+background-color:lightblue;
+
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url('./img/bike.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+#showcase .button{
+font-size:18px;
+text-decoration:none;
+color:black;
+border:maroon 1px solid;
+padding:10px 20px;
+border-radius:10px;
+text-size:center;
+margin-top:20px;
+}
+#showcase .button:hover{
+background:black;
+color:white;
+}
+.button {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.button:hover {
+background:black;
+color:white;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+
+}
+footer {
+text-align:center;
+padding:50px 80px;
+color: Green;
+}
+
+    </style>
+</head>
+<body>
+<main>
+<fieldset>
+<div id="landing">
+    <div id="landing-text">
+        <div id="landing-text-inner">
+            <h1>Dyne PHotography</h1>
+    <h2>Lens is the third eye</h2>
+    <a href="#images" class="button">view work</a>
+        </div>
+    </div>
+    <div id="landing-image"></div>
+</div>
+</fieldset>
+
+
+    <div id="images">
+    <div id="header">
+        <h2>Our Work</h2>
+    </div>
+
+    <img src="./img/photo1.jpg" alt="">
+    <div class="caption">
+        <h3>Photo One</h3>
+        <p>Its like sketching a sketch</p>
+    </div>
+    <img src="./img/photo2.jpg" alt="">
+    <div class="caption">
+        <h3>Photo Two</h3>
+        <p>nature Lover</p>
+    </div>
+    <img src="./img/photo4.jpg" alt="">
+    <div class="caption">
+        <h3>Photo Three</h3>
+        <p>natural nature</p>
+    </div>
+        <img src="./img/photo3.jpg" alt="">
+        <div class="caption">
+            <h3>birds love</h3>
+            <p></p>
+        </div>
+
+</div>
+</main>
+
+<footer class="section section-light">
+    <h2>Get In Touch</h2>
+    <p>
+        Email or call us to set up a consult.</p>
+    <p>Email:photowork@gmail.com</p>
+    <p> Phone:55555555
+    </p>
+</footer>
+
+</body>
+</html>
